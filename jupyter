@@ -1,3 +1,9 @@
+name: export-and-branch-solution
+
+on: 
+    repository_dispatch:
+      types: [export_and_branch]
+
 from datetime import datetime
 import pandas as pd
 from arcgis.gis import GIS
