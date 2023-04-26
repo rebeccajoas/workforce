@@ -25,3 +25,7 @@ on:
                 assignment_type="Work Order",
                 status="unassigned"))
     project.assignments.batch_add(assignments)
+
+env:
+    ENVIRONMENT_URL: 
+    USERNAME: 
